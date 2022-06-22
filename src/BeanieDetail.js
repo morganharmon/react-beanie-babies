@@ -19,7 +19,9 @@ export default function BeanieDetail() {
 
   function handleBeanieClick() {
     // here's a challenge. How can you link on click to the beanie baby's correct entry in the official beanie baby fan site?
+    window.open(beanieBaby.link, '_blank');
   }
+
   return (
     <>
       {/* Feel free to uncomment and use the below code--but you'll need to figure out how to keep it from blowing up on load */}
